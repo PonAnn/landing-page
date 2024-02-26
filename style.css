@@ -1,0 +1,77 @@
+html {
+    font-size:100%;
+}
+
+.title {
+    display:flex;
+    justify-content:space-between;
+    padding:20px;
+}
+
+.mainNav{
+    display:flex;
+    margin-right: 15px;
+    
+}
+
+.mainNav li {
+    list-style:none;
+    margin-left:15px;
+    font-size:25px;
+    
+}
+
+.mainNav li a {
+    text-decoration:none;
+    color:rgb(74, 62, 43);
+} 
+
+.mainNav li a:hover {
+    color:rgb(41, 97, 78);
+}
+
+.titleLogo {
+    display:block;
+    
+}
+
+.mainTitle {
+    font-weight: bold;
+    font-size:70px;
+    text-align:center;
+    margin-top:250px;
+}
+
+.homeWord {
+    text-align:center;
+    color:white;
+}
+
+.homeWord p {
+    font-size:25px;
+}
+
+#home {
+    background-image:url(images/landing_page.jpeg);
+    min-height:100vh;
+    text-align:center;
+    margin:0;
+}
+
+.big-bg {
+    background-size:cover;
+}
+
+.mainButton {
+    font-size:20px;
+    padding:12px;
+    border-radius: 0.5em;
+    text-decoration:none;
+    background-color:rgb(115, 82, 42);
+    color:white;
+}
+
+.mainButton:hover {
+    background-color:aquamarine;
+    color:black;
+}
